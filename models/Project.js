@@ -23,6 +23,7 @@ Project.init(
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
+    //delete Item below//
     needed_funding: {
       type: DataTypes.FLOAT,
       allowNull: true,

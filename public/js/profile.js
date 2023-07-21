@@ -5,9 +5,11 @@ const newFormHandler = async (event) => {
   const needed_funding = document.querySelector('#project-funding').value.trim();
   const description = document.querySelector('#project-desc').value.trim();
 
+  //delete needed_funding && below
   if (name && needed_funding && description) {
     const response = await fetch(`/api/projects`, {
       method: 'POST',
+      //delete needed_funding, below
       body: JSON.stringify({ name, needed_funding, description }),
       headers: {
         'Content-Type': 'application/json',
