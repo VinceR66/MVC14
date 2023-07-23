@@ -23,11 +23,10 @@ Project.init(
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
-    //delete Item below//
-    needed_funding: {
-      type: DataTypes.FLOAT,
-      allowNull: true,
-    },
+    //comment: [{
+    //type: DataTypes.STRING,
+    //allowNull: true,
+    //}],
 
     user_id: {
       type: DataTypes.INTEGER,
