@@ -23,10 +23,6 @@ Project.init(
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
-    //comment: [{
-    //type: DataTypes.STRING,
-    //allowNull: true,
-    //}],
 
     user_id: {
       type: DataTypes.INTEGER,

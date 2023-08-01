@@ -2,13 +2,18 @@
   <h2>{{name}}</h2>
   <p>{{{get_emoji}}}</p>
   <p>{{description}}</p>
+
   <p>Posted by {{user.name}} on {{format_date date_created}}</p>
-  <p>
-    <span class="dollar-amount">Lead with Kindness</span>
-  </p>
-  <p>
+
+
+  <br>
+  <br>
+  <h4>Reader Comments</h4>
+  <p>{{comment}}</p>
+  <form class="comment-form" data-post-id="{{id}}">
     <button class="btn btn-primary">Add a Comment!</button>
-  </p>
+    <input name="comment">
+  </form>
 </div>
 
-<!-- <script src="./js/comment.js"></script>  -->
+<script src="/js/comment.js"></script>

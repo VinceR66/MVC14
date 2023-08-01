@@ -1,7 +1,9 @@
-/*const newCommHandler = async (event) => {
+const newCommHandler = async function (event) {
     event.preventDefault();
-
-    const comment = document.querySelector('#project-comm').value.trim();
+    const formData = new FormData(this)
+    const postId = this.dataset["post-id"];
+    const comment = formData.get("comment").trim();
+    console.log(this.dataset);
 
 
     if (comment) {
@@ -25,7 +27,7 @@
 
 
 document
-    .querySelector('.new-project-comm')
+    .querySelector('.comment-form')
     .addEventListener('submit', newCommHandler);
 
-*/
+
