@@ -9,7 +9,14 @@
   <br>
   <h4>Reader Comments</h4>
 
-  <p>{{name}}</p>
+  {{#each comments as |comment| }}
+  <div class="col-md-12">
+    <p>
+      {{comment.comment}}
+    </p>
+  </div>
+  {{/each}}
+
 
   <form class="comment-form" data-post-id="{{id}}">
     <button class="btn btn-primary">Add a Comment!</button>
