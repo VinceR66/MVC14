@@ -17,9 +17,9 @@ ________________________________________________________________________________
 ## License: MIT
 _______________________________________________________________________________________________________________________________
 ## Links:
-Deployment : https://drive.google.com/file/d/1esLIjkuDHm1FJhCAqGgx6RQRfhGdBhC0/view
+Heroku URL : https://drive.google.com/file/d/1esLIjkuDHm1FJhCAqGgx6RQRfhGdBhC0/view
 
-Repository : https://github.com/VinceR66/sqlTracker12 
+Repository : https://github.com/VinceR66/MVC14 
 _______________________________________________________________________________________________________________________________
 ## Questions:
 Please contact me at info@me.com with additional questions.
